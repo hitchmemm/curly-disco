@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Spider-Man - Comics and Movies</title>
-      <style>
+    <title>Spider-Man</title>
+    <style>
       h1 { 
         color: red;
       }
@@ -13,6 +13,7 @@
          list-style-type: none;
          overflow: hidden;
          background-color: #333;
+         margin: 0;
       }   
       nav li {        
          float: left;
@@ -29,15 +30,38 @@
          background-color: #4333FF;
       }
       
+      header img {
+         width:100%
+      }
+      
+      body {
+          background-image: url("https://wallpapercave.com/wp/fnH1ChQ.jpg"); 
+          background-position: center;
+      }
+      
+      div.transbox {
+           margin: 30px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        } 
+      div.transbox p {
+             margin: 5%;
+             color: #000000;
+        }
+      
+      
     </style>
   </head>
-    <nav>
+<body>
+  <nav role="nav">
       <ul>
-        <li><a href="index.html">Spider-Man</a></li>
-        <li><a href="abilities.html">Spider-Man's Abilities</a></li>
-        <li><a href="comics-and-movies.html">Spider-Man Movies and Comics</a></li>
+        <li><a href="/spider-man/">Spider-Man</a></li>
+        <li><a href="abilities">Spider-Man's Abilities</a></li>
+        <li><a href="comics-and-movies">Spider-Man Movies and Comics</a></li>
       </ul>
-    </nav>
+  </nav>
   <main>
     <h1>Comics and Movies Spider-Man Has Appeared In</h1>
   </main>
